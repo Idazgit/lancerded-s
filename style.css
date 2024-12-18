@@ -1,0 +1,31 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.divdes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 400px;
+  width: 400px;
+}
+
+.button {
+  padding: 10px 20px;
+  border-color: violet;
+  border-radius: 100px;
+  background-color: darkmagenta;
+  color: white;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.img1 {
+  height: 150px;
+}
+.animation {
+  transform: rotate(360deg);
+  transition: 1s;
+}
